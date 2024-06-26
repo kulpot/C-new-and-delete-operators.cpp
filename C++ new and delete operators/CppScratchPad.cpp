@@ -6,5 +6,5 @@ using std::endl;
 
 void main()
 {
-
+	int i = 5;
 }
