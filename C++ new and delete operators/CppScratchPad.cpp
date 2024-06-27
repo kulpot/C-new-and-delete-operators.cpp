@@ -7,5 +7,6 @@ using std::endl;
 void main()
 {
 	//int i = 5;
-	int i = new int(5);
+	//int i = new int(5); //error:int* i = new int(5)
+
 }
