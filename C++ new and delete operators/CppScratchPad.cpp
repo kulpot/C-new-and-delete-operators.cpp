@@ -11,5 +11,6 @@ void main()
 	int* i = new int(5);  // i is now a pointer that can be stored in the heap
 	cout << *i << endl;
 	*i = 8;
+	cout << *i << endl;
 
 }
