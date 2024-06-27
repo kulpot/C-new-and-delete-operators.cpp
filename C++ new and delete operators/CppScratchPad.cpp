@@ -8,6 +8,6 @@ void main()
 {
 	//int i = 5;
 	//int i = new int(5); //error:int* i = new int(5);
-	int* i = new int(5);  
+	int* i = new int(5);  // i is now a pointer that can be stored in the heap
 
 }
