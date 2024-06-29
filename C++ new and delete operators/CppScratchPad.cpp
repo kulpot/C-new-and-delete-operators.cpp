@@ -18,6 +18,7 @@ void main()
 	(*p).age = 20;
 	p->age = 30;
 	cout << (*p).age << endl;
+	cout << p->age << endl;
 }
 
 
