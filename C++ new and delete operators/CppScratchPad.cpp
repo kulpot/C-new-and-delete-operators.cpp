@@ -6,7 +6,8 @@ using std::endl;
 
 class Person
 {
-
+public:
+	int age;
 };
 
 void main()
