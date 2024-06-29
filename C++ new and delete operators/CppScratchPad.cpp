@@ -19,6 +19,7 @@ void main()
 	p->age = 30;
 	cout << (*p).age << endl;
 	cout << p->age << endl;
+	delete p;
 }
 
 
