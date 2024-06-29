@@ -13,7 +13,7 @@ public:
 
 void main()
 {
-
+	Person p;
 }
 
 
