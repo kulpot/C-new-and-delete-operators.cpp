@@ -8,6 +8,7 @@ class Person
 {
 public:
 	int age;
+	char gender;
 };
 
 void main()
