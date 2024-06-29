@@ -12,6 +12,6 @@ void main()
 	cout << *i << endl;
 	*i = 8;
 	cout << *i << endl;
-	delete i;	//delete memory i
+	delete i;	//delete memory i if your done with that RAM
 
 }
