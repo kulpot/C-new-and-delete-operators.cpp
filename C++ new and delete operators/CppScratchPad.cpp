@@ -13,6 +13,6 @@ void main()
 	*i = 8;
 	cout << *i << endl;
 	delete i;	//delete memory i if your done with that RAM
-	cout << *i << endl;
+	cout << *i << endl;	//result: undefined
 
 }
