@@ -14,7 +14,7 @@ public:
 void main()
 {
 	//Person p; //put p on the stack
-	Person p = new Person; //put p on the heap
+	Person* p = new Person; //put p on the heap but p is a pointer(*)
 }
 
 
