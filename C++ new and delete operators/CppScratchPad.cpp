@@ -16,6 +16,7 @@ void main()
 	//Person p; //put p on the stack
 	Person* p = new Person; //put p on the heap but p is a pointer(*)
 	(*p).age = 20;
+	p->age = 30;
 	cout << (*p).age << endl;
 }
 
