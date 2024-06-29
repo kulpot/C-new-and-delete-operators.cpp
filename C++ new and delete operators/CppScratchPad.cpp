@@ -19,7 +19,8 @@ void main()
 	p->age = 30;
 	cout << (*p).age << endl;
 	cout << p->age << endl;
-	delete p;  // memory management for memory leaks
+	//delete p;  // memory management for memory leaks
+	p = new Person;
 }
 
 
