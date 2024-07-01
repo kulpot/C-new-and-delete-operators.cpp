@@ -22,7 +22,7 @@ void main()
 	cout << p->age << endl;
 	delete p;  // memory management for memory leaks: free p for RAM
 	p = new Person;		// when creating new must delete the unused one
-	delete p;	// clean up again
+	delete p;	// clean up again 
 }
 
 
